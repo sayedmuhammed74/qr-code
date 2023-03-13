@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(212, 224, 238);
+  font-family: cursive;
+}
+.card {
+  margin: 100px auto;
+  background-color: #fff;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 12px;
+  padding-bottom: 25px;
+  border-radius: 15px;
+  text-align: center;
+}
+.card img {
+  border-radius: 15px;
+}
+.card h3 {
+  color: rgb(23, 38, 61);
+  font-weight: bold;
+  line-height: 1.35;
+}
+.card p {
+  color: rgb(145, 147, 162);
+  line-height: 1.35;
+}
